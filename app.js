@@ -21,9 +21,7 @@ const userRoutes = require("./Routes/users");
 const User = require("./models/user");
 const app = express();
 
-const dbUrl =
-  process.env.DB_URL ||
-  "mongodb+srv://ourfirstuser:T51atLWmdHCQ8hzj@cluster0.355zr.mongodb.net/?retryWrites=true&w=majority";
+const dbUrl = process.env.DB_URL || "mongodb://localhost:27017/yelp-camp";
 mongoose.connect(dbUrl, {
   useNewUrlParser: true,
   useCreateIndex: true,
