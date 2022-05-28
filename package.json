@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "development": "nodemon app.js",
+    "postinstall": "npm run build",
     "start": "node app.js"
   },
   "author": "Devansh Dubey",
