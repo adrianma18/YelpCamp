@@ -21,7 +21,9 @@ const userRoutes = require("./Routes/users");
 const User = require("./models/user");
 const app = express();
 
-const dbUrl = process.env.DB_URL || "mongodb://127.0.0.1:27017/yelp-camp";
+const dbUrl =
+  process.env.DB_URL ||
+  "mongodb+srv://ourfirstuser:T51atLWmdHCQ8hzj@cluster0.355zr.mongodb.net/?retryWrites=true&w=majority";
 mongoose.connect(dbUrl, {
   useNewUrlParser: true,
   useCreateIndex: true,
@@ -130,7 +132,7 @@ app.use(
         "'self'",
         "blob:",
         "data:",
-        "https://res.cloudinary.com/dyekojods/", //! SHOULD MATCH YOUR CLOUDINARY ACCOUNT!
+        "https://res.cloudinary.com/dmkxrnquz/", //! SHOULD MATCH YOUR CLOUDINARY ACCOUNT!
         "https://images.unsplash.com",
       ],
       fontSrc: ["'self'", ...fontSrcUrls],
