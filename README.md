@@ -2,7 +2,7 @@
 
 # YelpCamp
 
-> A simple CRUD based node project, displaying some demo data. Basically this is camping website, where you can create your own campground, review others campground etc.
+> CRUD based node project, displaying some demo data. Camping website, where you can create your own campground, review others campground etc.
 
 ## Prerequisites
 
@@ -81,4 +81,4 @@ You can add your new features and pull a request, I will sure look into that.
 
 ## Authors
 
--   **Devansh Dubey** - _Initial work_ - [dubeyji0110](https://github.com/dubeyji0110)
+- **Adrian Marten** - _Initial work_ - [adrianma18](https://github.com/adrianma18)
