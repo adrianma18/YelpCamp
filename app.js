@@ -156,7 +156,7 @@ app.use((err, req, res, next) => {
   res.status(statusCode).render("layouts/error", { err });
 });
 
-const port = process.env.PORT || "8080";
+const port = process.env.PORT || 5000;
 
 app.listen(port, () => {
   console.log(`Serving on port ${port}`);
