@@ -30,7 +30,7 @@ CLOUDINARY_SECRET=<your cloudinary secret>
 
 MAPBOX_TOKEN=<your mapbox token>
 DB_URL=<your mongodb atlas url>
-SECRET=ilovemycrushverymuch
+SECRET=secreto
 ```
 
 ## Installation
